@@ -1,6 +1,6 @@
 
-require("lazy.lazy")
-require("configs")
+require("weslin.lazy")
+require("weslin.configs")
 
 -- configuracion de opciones --
 vim.opt.number = true
