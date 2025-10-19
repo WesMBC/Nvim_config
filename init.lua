@@ -15,4 +15,5 @@ vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
 vim.opt.cursorline = true
 vim.opt.cursorlineopt = 'number'
 vim.opt.termguicolors = true
+vim.opt.rtp:prepend("~/.local/share/nvim/lazy/lazy.nvim")
 
