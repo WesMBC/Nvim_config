@@ -20,4 +20,9 @@ vim.keymap.set('n','<leader>vs',':vsplit<cr>',{})
 --comando para cerrar ventana sin el :q
 vim.keymap.set('n','<leader>q',':q<cr>',{})
 
+--llamado de comando para split de neotree (No funcional al inicio)
+--vim.cmd("NeoTreeDual")
+vim.keymap.set("n", "<leader>n", ":Neotree <CR>", { desc = "Abrir archivos" })
+vim.keymap.set("n", "<leader>ne", ":Neotree source=git_status <CR>", { desc = "Abrir Git status" })
+
 
