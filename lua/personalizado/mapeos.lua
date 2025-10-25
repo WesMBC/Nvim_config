@@ -17,7 +17,7 @@ vim.opt.fillchars = {eob = " "}
 vim.keymap.set('n','<leader>s',':split<cr>',{})
 vim.keymap.set('n','<leader>vs',':vsplit<cr>',{})
 
---comando para cerrar ventana sin el :q
+--Comando para cerrar ventana sin el :q
 vim.keymap.set('n','<leader>q',':q<cr>',{})
 
 --llamado de comando para split de neotree (No funcional al inicio)

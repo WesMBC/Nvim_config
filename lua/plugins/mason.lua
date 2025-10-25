@@ -21,19 +21,10 @@ return{
         config = function()
             local config = require("mason-lspconfig")
             config.setup({
-                ensure_installed = {"lua_ls","bashls"}
+                ensure_installed = {"lua_ls","bashls","pyright",'harper_ls'}
             })
         end 
 
     },
-    --nvim-lspconfig
-    {
-        "neovim/nvim-lspconfig",
-        config = function()
-            local lspconfig = require("lspconfig")
-            lspconfig.lua_lssetup({})
-        end
-        
 
-    }
 }

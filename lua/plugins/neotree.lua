@@ -7,10 +7,10 @@ return{
       "nvim-tree/nvim-web-devicons", -- optional, but recommended
     },
     config = function()
-        --configuracion de un comando
+        --configuracion de un commandos
         vim.keymap.set('n', '<leader>m', ':Neotree<cr>',{})
 
-        --configuracion general del plugin
+        --configuracion general deb plugin
         --se crea primero una variable con el llamado a la configuracion 
         local config = require("neo-tree")
 
@@ -25,7 +25,7 @@ return{
                 "filesystem",
                 "git_status"
             },
-            
+
             source_selector = {
                 winbar = true,
                 statusline = true
@@ -50,7 +50,7 @@ return{
 
 
     end
-    
+
 }
 
 
