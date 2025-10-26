@@ -7,7 +7,7 @@ return{
     config = function()
         local config = require("mason")
         config.setup({})
-    end 
+    end
     },
 
     --mason lspconfig
@@ -23,7 +23,7 @@ return{
             config.setup({
                 ensure_installed = {"lua_ls","bashls","pyright",}
             })
-        end 
+        end
 
     },
 
