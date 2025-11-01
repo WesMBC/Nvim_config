@@ -14,6 +14,8 @@ return {
                 --diagnosticos 
                 --null_ls.builtins.diagnostics.eslint_d,
                 null_ls.builtins.diagnostics.mypy,
+                null_ls.builtins.diagnostics.semgrep,
+
 
                 null_ls.builtins.hover.dictionary,
                 null_ls.builtins.hover.printenv,
