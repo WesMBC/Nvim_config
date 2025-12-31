@@ -3,6 +3,9 @@ vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
 
+--Seteo de cursor
+vim.opt.guicursor = "n-v-c:ver25,i-ci-ve:ver25,r-cr-o:hor20"
+
 --Seteo de numero
 vim.opt.number = true
 vim.opt.relativenumber = true
