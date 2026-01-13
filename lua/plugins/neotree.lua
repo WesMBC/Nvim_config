@@ -9,7 +9,7 @@ return {
 	config = function()
 		--configuracion de un commandos
 		vim.keymap.set("n", "<leader>m", ":Neotree<cr>", {})
-
+    
 		--configuracion general deb plugin
 		--se crea primero una variable con el llamado a la configuracion
 		local config = require("neo-tree")
@@ -40,7 +40,7 @@ return {
 					hide_dotfiles = false,
 					hide_gitignored = false,
 				},
-				follow_current_fie = { enabled = false, leave_dirs_open = true },
+				follow_current_file = { enabled = false, leave_dirs_open = true },
 				group_empty_dirs = true,
 			},
 

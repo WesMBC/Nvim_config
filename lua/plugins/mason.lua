@@ -21,6 +21,7 @@ return{
         config = function()
             local config = require("mason-lspconfig")
             config.setup({
+                automatic_enable = true,
                 ensure_installed = {"lua_ls","bashls","pyright",}
             })
         end
